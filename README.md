@@ -1,5 +1,5 @@
 # Umi
-Created with discord.py/PyCord, Python3.9+ Required
+Created with discord.py/PyCord, Python3.9+ Required.
 
 ### Note
 I don't provide support with running custom instances of my bot, if something doesn't work out of the box, please don't contact me about it.
