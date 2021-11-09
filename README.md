@@ -1,4 +1,4 @@
-# Umi
+# Umi.py
 Created with discord.py/PyCord, Python3.9+ Required.
 
 ### Note
