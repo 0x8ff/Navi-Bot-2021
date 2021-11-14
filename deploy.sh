@@ -8,5 +8,5 @@ echo "Installing Pycord-Dev"
 pip install -U git+https://github.com/Pycord-Development/pycord /
 pip install python-dotenv
 
-echp "Running bot..."
+echo "Running bot..."
 python3 src/bot.py
