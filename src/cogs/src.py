@@ -7,7 +7,7 @@ class src(commands.Cog):
 
     @slash_command(guild_ids=[903901767920680972], description='Umi Source Code')
     async def src(self, ctx):
-        await ctx.respond("https://github.com/shulkk/umi.py")
+        await ctx.respond("https://github.com/x86guy/umi.py")
 
 def setup(bot):
     bot.add_cog(src(bot))

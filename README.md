@@ -1,21 +1,10 @@
-# Umi.py
+# Umi (Python Rewrite)
 Created with discord.py/PyCord, Python3.9+ Required.
 
-## Note
-I don't provide support with running custom instances of my bot, if something doesn't work out of the box, please don't contact me about it.
-
 ## Getting Bot Up & Running
-First install the required dependencies:
-```sh
-pip install git+https://github.com/Pycord-Development/pycord /
-pip install python-dotenv
-```
-Then store the bot token in a file named .env like so:
-```sh
-BOT_TOKEN=<BOT_TOKEN_GOES_HERE>
-```
-Make sure to change ``<BOT_TOKEN_GOES_HERE>`` to the actual bot token, after that go into the src file and run:
-```sh
-python bot.py
-```
-You're all set up after this!!
+- Create a bot profile and invite it with the ``bot`` and ``applications.commands`` scope.
+![](images/scope.png)
+- Create a file named ``.env``
+- In the ``.env`` file, add the following line ``BOT_TOKEN=<GENERATED_BOT_TOKEN>``, make sure to change <GENERATED_BOT_TOKEN> to your actual bot token.
+- Run the ``deploy.sh`` script to get your bot up and running! This script installs all of the necessary dependencies to run this bot.
+  - You may run the bot by typing in ``chmod 0755 deploy.sh && ./deploy.sh``.
