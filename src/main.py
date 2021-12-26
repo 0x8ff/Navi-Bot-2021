@@ -10,8 +10,7 @@ bot = commands.Bot(command_prefix = ".")
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
 
-initial_extensions = ['cogs.help',
-                      'cogs.src']
+initial_extensions = ['cogs.src']
 
 if __name__ == '__main__':
     for extension in initial_extensions:
