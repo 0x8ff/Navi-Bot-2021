@@ -1,4 +1,4 @@
-# Copyright (c) Shulkk, 2021.
+# Copyright (c) 0x8FF 2021-present.
 import os
 import discord
 from dotenv import load_dotenv
