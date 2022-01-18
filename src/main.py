@@ -11,7 +11,9 @@ load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
 
 initial_extensions = ['cogs.src',
-                      'cogs.invite']
+                      'cogs.invite',
+                      'cogs.avatar']
+
 
 if __name__ == '__main__':
     for extension in initial_extensions:
@@ -19,7 +21,7 @@ if __name__ == '__main__':
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Game(name="v0.14"))
+    await bot.change_presence(activity=discord.Game(name="Public Beta"))
     print("Connected to Discord Gateway!")
 
 bot.run(TOKEN)
