@@ -7,7 +7,7 @@ class invite(commands.Cog):
 
     @slash_command(guild_ids=[932084005707337788], description='Server Invite Link')
     async def invite(self, ctx):
-        await ctx.respond("https://discord.gg/XAuZHkwZ7N")
+        await ctx.respond("Error")
 
 def setup(bot):
     bot.add_cog(invite(bot))

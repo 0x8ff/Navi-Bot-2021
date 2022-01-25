@@ -5,14 +5,13 @@ from dotenv import load_dotenv
 from discord.ext import commands
 from discord.commands import slash_command
 
-bot = commands.Bot(command_prefix = ".")
+bot = commands.Bot(command_prefix = ">")
 
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
 
 initial_extensions = ['cogs.src',
-                      'cogs.invite',
-                      'cogs.avatar']
+                      'cogs.invite']
 
 
 if __name__ == '__main__':

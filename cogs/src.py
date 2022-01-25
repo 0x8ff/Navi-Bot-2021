@@ -5,9 +5,9 @@ class src(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @slash_command(guild_ids=[932084005707337788], description='Miku Source Codex')
+    @slash_command(guild_ids=[932084005707337788], description='Navi Source Code')
     async def src(self, ctx):
-        await ctx.respond("https://github.com/0x8FF/MikuBot")
+        await ctx.respond("https://github.com/0x8FF/Navi")
 
 def setup(bot):
     bot.add_cog(src(bot))
