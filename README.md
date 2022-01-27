@@ -2,6 +2,7 @@
 Created during the end of hacktoberfest 2021.
 
 ## Dependencies
+- Python3.9+
 - pycord (2.0.0a) ``pip install -U git+https://github.com/Pycord-Development/pycord``
 - python-dotenv ``pip install python-dotenv``
 

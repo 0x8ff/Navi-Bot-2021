@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from discord.ext import commands
 from discord.commands import slash_command
 
+bot = commands.Bot()
+
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
 
