@@ -1,5 +1,5 @@
-# Navi - WIP Multipurpose Discord Bot
-Created during the end of hacktoberfest 2021.
+# ⚠️ Navi - Multipurpose Discord Bot 
+This project has been deprecated.
 
 ## Dependencies
 - Python3.9+
@@ -12,9 +12,4 @@ Created during the end of hacktoberfest 2021.
 - Create a file named ``.env``
 - In the ``.env`` file, add the following line: ``BOT_TOKEN=0123456789``
   - Make sure to replace ``0123456789`` to your actual bot token.
-- Run ``python3 src/main.py`` to run the bot.
-
-## To Do
-- Remove .env and move to config.py
-- More Commands
-- Fully move to slash commands
+- Run ``python3 main.py`` to run the bot.
