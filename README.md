@@ -1,5 +1,5 @@
 # ⚠️ Navi - Multipurpose Discord Bot 
-This project has been deprecated.
+This bot is not longer being worked on.
 
 ## Dependencies
 - Python3.9+
