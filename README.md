@@ -1,5 +1,5 @@
-# ⚠️ Navi - Multipurpose Discord Bot 
-This bot is not longer being worked on.
+# Navi - Hacktoberfest 2021 Discord Bot
+⚠️ This bot is no longer in development.
 
 ## Dependencies
 - Python3.9+
